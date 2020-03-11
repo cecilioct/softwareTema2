@@ -31,7 +31,7 @@ public class ctrlMetodosPF {
          
          lista1=new ArrayList<csPuntoFijo>();
         
-         while(errorCalculado>erroDeseado && itera>iteracion){
+         while(errorCalculado>erroDeseado || itera>iteracion){
             
             csPuntoFijo fila=new csPuntoFijo();
             fila.setIteraciones(iteracion+1);
