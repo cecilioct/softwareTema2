@@ -45,6 +45,7 @@ public class csPuntoFijo {
     }
 
     @Override
+    //aquí se imprimer
     public String toString() {
         return "csPuntoFijo{" + "iteraciones=" + iteraciones + ", xi=" + xi + ", gx=" + gx + ", error=" + error + '}';
     }
